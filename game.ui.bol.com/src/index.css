@@ -1,0 +1,64 @@
+/* Global styles and browser overrides */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+h1.thin,
+h2.thin,
+h3.thin {
+  font-weight: 100;
+}
+
+.backdrop {
+  background: #36c;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-spaced {
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+button.blue {
+  color: #fff;
+  background: #36c;
+}

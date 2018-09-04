@@ -1,0 +1,13 @@
+
+.game-list-item {
+    padding: 14px 8px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    border-left: 0px solid black;
+}
+
+.game-list-item:hover {
+    transition: border .3s ease;
+    border-left: 4px solid black;
+}

@@ -1,0 +1,10 @@
+
+.game-list {
+    width: 500px;
+    max-width: 90%;
+}
+
+.game-list .list {
+    margin-top: 14px;
+    padding: 4px;
+}

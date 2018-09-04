@@ -1,0 +1,9 @@
+
+.game-surface .card {
+    display: flex;
+}
+
+.game-surface .pit-row {
+    flex-wrap: wrap;
+    max-width: 648px;
+}
